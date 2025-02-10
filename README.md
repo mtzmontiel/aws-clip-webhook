@@ -2,6 +2,8 @@
 
 This is a sample webhook receiver for clip.mx payment results. Infrastructure is deployed to an AWS Account with terraform. The Payload is received in an AWS API Gateway which uses direct DynamoDB integration to store the payload and important fields without the need to use additional compute mechanisms. This is so far the simplest way to develop such solution and it can be deployed in minutes.
 
+![Deployment](structurizr-1-Deployment-002.png)
+
 Documentation is being done with Structurizer and can be found on `structurizer` folder.
 
 Sample payloads are on `examples` folder.
