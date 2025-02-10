@@ -1,0 +1,18 @@
+{
+    "merchant_name":"Clip",
+    "latitude":"20.7009682",
+    "longitude":"-103.3657762",
+    "tip":"0.00",
+    "term":"",
+    "user_id":"alex.testclip@gmail.com",
+    "last4":"4352",
+    "issuer":"BANAMEX",
+    "amount":"150.00",
+    "currency":"MXN",
+    "payment_date":"1589838838",
+    "transaction_id":"da61507f-06aa-4279-ac36-6f321a90eaab",
+    "src_transaction_id":null,
+    "status":"CANCELLED",
+    "receipt_no":"X3FpImG",
+    "merch_inv_id":"TESTREFERENCE"
+ }

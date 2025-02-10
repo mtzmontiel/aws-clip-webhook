@@ -1,0 +1,32 @@
+{
+  "TableName": "${table_name}",
+  "Item": {
+    "PK": {
+      "S": "TX_$input.path('$.payment_date')_$input.path('$.transaction_id')"
+    },
+    "SK": {
+      "S": "$input.path('$.status')_$context.requestId"
+    },
+    "amount":{
+        "S": $input.json('$.amount')
+    },
+    "tip":{
+        "S": $input.json('$.tip')
+    },
+    "invoice_id":{
+        "S": $input.json('$.merch_inv_id')
+    },
+    "user_id":{
+        "S": $input.json('$.user_id')
+    },
+    "status":{
+        "S": $input.json('$.status')
+    },
+    "payment_date":{
+        "S": $input.json('$.payment_date')
+    },
+    "original": {
+      "S": "$util.escapeJavaScript($input.json('$'))"
+    }
+  }
+}

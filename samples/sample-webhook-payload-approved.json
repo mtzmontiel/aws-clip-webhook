@@ -1,0 +1,18 @@
+{
+    "amount": "1.00",
+    "currency": "MXN",
+    "issuer": "AMEX",
+    "last4": "1006",
+    "latitude": "19.3708538",
+    "longitude": "-99.179176",
+    "merch_inv_id": "",
+    "merchant_name": "Personal",
+    "payment_date": "1566417088",
+    "receipt_no": "Y3qw6VX",
+    "src_transaction_id": null,
+    "status": "PAID",
+    "term": "",
+    "tip": "0.00",
+    "transaction_id": "271de9-4XXX-XXXX-69754c6",
+    "user_id": "user@example.com"
+  }
